@@ -2,22 +2,22 @@ package com.bridgelabz;
 
 public class FindMaximum {
 	public static void Maximum() {
-		Float value1 = new Float("0.55");
-		Float value2 = new Float("3.55");
-		Float value3 = new Float("6.89");;
+		String value1 = new String("Apple");
+		String value2 = new String("Banana");
+		String value3 = new String("Peach");
 		
-		float max1 = value1.compareTo(value2);
-		float max2 = value2.compareTo(value3);
-		float max3 = value3.compareTo(value1);
+		int max1 = value1.compareTo(value2);
+		int max2 = value2.compareTo(value3);
+		int max3 = value3.compareTo(value1);
 		
 		if (max1 > 0) {
-			System.out.println("The maximum value among the three numbers is: " + value1);
+			System.out.println("The maximum value among the three strings is: " + value1);
 		}
 		else if (max2 > 0) {
-			System.out.println("The maximum value among the three numbers is: " + value2);
+			System.out.println("The maximum value among the three strings is: " + value2);
 		}
 		else if (max3 > 0) {
-			System.out.println("The maximum value among the three numbers is: " + value3);
+			System.out.println("The maximum value among the three strings is: " + value3);
 		}
 		else {
 			System.out.println("All values are same.");
